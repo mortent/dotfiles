@@ -1,5 +1,5 @@
 
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$HOME/.rvm/bin:$PATH"
 
 alias ls='ls -GFh'
 export PS1="\w $ "
@@ -17,8 +17,4 @@ if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
 else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
-
-
-#From old .bashrc
-#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
